@@ -9,15 +9,13 @@ def diff(n, mid) :
         return ((mid * mid * mid) - n) 
 
           
-# Returns cube root of a no n 
+
 
 def cubicRoot(n) : 
 
       
 
-    # Set start and end for binary  
-
-    # search 
+    
 
     start = 0
 
@@ -25,7 +23,7 @@ def cubicRoot(n) :
 
       
 
-    # Set precision 
+    
 
     e = 0.0000001
 
@@ -39,11 +37,7 @@ def cubicRoot(n) :
 
   
 
-        # If error is less than e  
-
-        # then mid is our answer 
-
-        # so return mid 
+        
 
         if (error <= e) : 
 
@@ -51,9 +45,7 @@ def cubicRoot(n) :
 
               
 
-        # If mid*mid*mid is greater 
-
-        # than n set end = mid 
+        
 
         if ((mid * mid * mid) > n) : 
 
@@ -61,16 +53,14 @@ def cubicRoot(n) :
 
               
 
-        # If mid*mid*mid is less  
-
-        # than n set start = mid 
+        
 
         else : 
 
             start = mid 
 
               
-# Driver code 
+
 
 n = float(input())
 
